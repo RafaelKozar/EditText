@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="bakeapp.rako.edittextcustom.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="@android:color/holo_blue_bright"
+        android:layout_marginTop="16dp">
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+    android:id="@+id/edtNome"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:cursorVisible="true"
+    android:gravity="center"
+    android:hint="Nome Completo*"
+    android:paddingBottom="4dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="4dp"
+
+    android:singleLine="true"
+    app:met_floatingLabel="highlight"
+    app:met_hideUnderline="true"    />
+
+    </LinearLayout>
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
