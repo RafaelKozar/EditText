@@ -17,8 +17,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-
         edtNome.addTextChangedListener(diminuir(edtNome, 23, 27))
+        //edtNome.addTextChangedListener(diminuir(edtNome, 23, 27))
     }
 
 }
